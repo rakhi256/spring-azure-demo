@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringAzureDemoApplication {
 
-	@GetMapping("/message")
+	@GetMapping("/notification")
 	public String message(){
 		return "App deployed successfully in Azure";
 	}
