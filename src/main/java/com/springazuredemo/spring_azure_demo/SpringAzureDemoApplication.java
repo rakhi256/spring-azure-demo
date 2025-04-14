@@ -15,6 +15,7 @@ public class SpringAzureDemoApplication {
 		return "App deployed successfully in Azure";
 	}
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringAzureDemoApplication.class, args);
 	}
